@@ -21,7 +21,13 @@ SType;
 
 typedef struct ASDF
 {
+    char aa;
     int x;
+    int dddd;
+    char b[1024];
+    int* ptr;
+    ASDF* ad;
+    SType st;
     int y;
     int z;
     char c;     /// 패딩이 발생하여 4byte로 변경
