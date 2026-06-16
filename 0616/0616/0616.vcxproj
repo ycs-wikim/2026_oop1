@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{489a9178-417a-48a8-86e3-f986e638246d}</ProjectGuid>
-    <RootNamespace>My0615game</RootNamespace>
+    <ProjectGuid>{f7ef549e-71c9-435a-8450-089edf136a88}</ProjectGuid>
+    <RootNamespace>My0616</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -123,17 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="0615_game.cpp" />
-    <ClCompile Include="board.cpp" />
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="Random.cpp" />
-    <ClCompile Include="winrate.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="board.h" />
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="Random.h" />
-    <ClInclude Include="winrate.h" />
+    <ClCompile Include="0616.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
